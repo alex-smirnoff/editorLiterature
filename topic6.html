@@ -71,10 +71,11 @@ button.analyse:hover:not(:disabled), button.analyse.cancel:hover {
 	font-size: 10px;
 	padding: 5px 10px;
 	border-radius: 5px;
-	border: none;
+	border: 1px solid white;
 	background-color: rgb(180, 36, 36);
 	color: white;
 	cursor: pointer;
+	backface-visibility: hidden;
 	animation: scaleAnimation 2s ease-in-out infinite both;
 }
 @keyframes scaleAnimation {
